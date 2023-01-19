@@ -1,7 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 body{
-    background-color: #AAD6A0;
+    background-color: #cae8dc;
+  };
 }
 
 #font-color-1 {
@@ -14,10 +15,6 @@ body{
     font-weight: 700;
     color: #1B4E3B;
     font-size: x-large;
-}
-
-.navbar-background {
-    background-color: #f5fffa;
 }
 
 .bgimage {
@@ -35,8 +32,40 @@ body{
   }
 
   .quote-header {
-color: mintcream;
+color: #f5fffa;
 text-align: center;
 margin-top: 200px;
 margin-bottom: 0;
   }
+
+  #quote-author{
+    color: #f5fffa;
+text-align: center;
+  }
+
+  .navbar-background {
+  background-color: #cae8dc;
+}
+
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 2.5rem;
+}
+
+.btn-outline-success {
+  --bs-btn-color: #1b4e3b;
+  --bs-btn-border-color: #1b4e3b;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #1b4e3b;
+  --bs-btn-hover-border-color: #1b4e3b;
+  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1b4e3b;
+  --bs-btn-active-border-color: #1b4e3b;
+  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #1b4e3b;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #1b4e3b;
+  --bs-gradient: none;
+}
