@@ -50,34 +50,28 @@ text-align: center;
   background-color: #cae8dc;
 }
 
-
-.navbar {
-  --bs-navbar-padding-x: 0;
-  --bs-navbar-padding-y: 2.5rem;
-}
-
-.btn-outline-success {
-  --bs-btn-color: #1b4e3b;
-  --bs-btn-border-color: #1b4e3b;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1b4e3b;
-  --bs-btn-hover-border-color: #1b4e3b;
-  --bs-btn-focus-shadow-rgb: 25,135,84;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #1b4e3b;
-  --bs-btn-active-border-color: #1b4e3b;
-  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #1b4e3b;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #1b4e3b;
-  --bs-gradient: none;
-}
-
-.fa-user-shield:before {
+/* .fa-user-shield:before {
   content: "\f505";
-}
-*, ::after, ::before {
+} */
+/* i {
   box-sizing: border-box;
+  text-align: center;
+} */
+
+#logo {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.fa-solid .fa-user-shield .icon-center {
   text-align: center;
 }
 
+.text-bg-dark {
+  text-align: center;
+}
+
+.fa-solid, .fas {
+  font-weight: 900;
+  font-size: x-large;
+}
