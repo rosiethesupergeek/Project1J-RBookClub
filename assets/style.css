@@ -50,14 +50,6 @@ text-align: center;
   background-color: #cae8dc;
 }
 
-/* .fa-user-shield:before {
-  content: "\f505";
-} */
-/* i {
-  box-sizing: border-box;
-  text-align: center;
-} */
-
 #logo {
   text-align: left;
   vertical-align: middle;
@@ -75,3 +67,25 @@ text-align: center;
   font-weight: 900;
   font-size: x-large;
 }
+
+#logo {
+  font-size: xx-large;
+}
+
+.btn-align {
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: #BFD47B;
+  --bs-btn-border-color: #BFD47B;
+  --bs-btn-hover-bg: #1B4E3B;
+  --bs-btn-hover-border-color: #BFD47B;
+}
+
+.nav-link {
+  margin: 30px;
+}
+
+/*--------------------------------------------------------------------Homepage mid section--------------------------------------------*/
+
