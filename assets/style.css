@@ -43,6 +43,9 @@ margin-bottom: 0;
 text-align: center;
   }
 
+
+  /*-------------------------------------------------------------------------------------------NAVBAR---------------------------------*/
+
   .navbar-background {
   background-color: #cae8dc;
 }
@@ -69,3 +72,12 @@ text-align: center;
   --bs-btn-disabled-border-color: #1b4e3b;
   --bs-gradient: none;
 }
+
+.fa-user-shield:before {
+  content: "\f505";
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+  text-align: center;
+}
+
