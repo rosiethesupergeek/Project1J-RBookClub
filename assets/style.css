@@ -1,12 +1,12 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 body{
-    background-color: #cae8dc;
+    background-color: #9FC7AA;
   };
 }
 
 #font-color-1 {
-    color: mintcream;
+    color: #9FC7AA;
     font-weight: 700;
     font-size: x-large;
 }
@@ -77,9 +77,9 @@ text-align: center;
 }
 
 .btn-primary {
-  background-color: #BFD47B;
-  --bs-btn-border-color: #BFD47B;
-  --bs-btn-hover-bg: #1B4E3B;
+  background-color: #3B7962;
+  --bs-btn-border-color: #3B7962;
+  --bs-btn-hover-bg: #BFD47B;
   --bs-btn-hover-border-color: #BFD47B;
 }
 
@@ -88,4 +88,25 @@ text-align: center;
 }
 
 /*--------------------------------------------------------------------Homepage mid section--------------------------------------------*/
+
+.bg-beige {
+  background-color: #EEE6D3;
+}
+
+.background-mintcream {
+  background-color:#CAE8DC;
+}
+
+.text-bg-dark {
+  color: #fff!important;
+  background-color: #3B7962!important;
+}
+
+.footer-content {
+  color:#EEE6D3;
+}
+
+.div-text {
+  text-align: center;
+}
 
