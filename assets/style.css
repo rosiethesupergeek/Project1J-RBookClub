@@ -81,9 +81,7 @@ text-align: center;
 
 /*--------------------------------------------------------------------Homepage mid section--------------------------------------------*/
 
-.footer-content {
-  color:#EEE6D3;
-}
+
 
 .div-text {
   text-align: center;
@@ -134,4 +132,18 @@ text-align: center;
 .step-4 {
   grid-column: 3;
   grid-row: 2;
+}
+
+/*-----Footer---------*/
+
+.footer {
+background-color: #3B7962
+}
+
+.footer-content {
+  color:#EEE6D3;
+}
+
+.flex-container {
+  display: flex;
 }
