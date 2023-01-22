@@ -46,29 +46,23 @@ text-align: center;
 
   /*-------------------------------------------------------------------------------------------NAVBAR---------------------------------*/
 
+  
+.nav-top-bg-colour {
+  background-color: #3B7962;
+  color: #fff;
+}
+
   .navbar-background {
   background-color: #cae8dc;
+}
+
+.faq-padding {
+  padding-right: 0;
 }
 
 #logo {
   text-align: left;
   vertical-align: middle;
-}
-
-.fa-solid .fa-user-shield .icon-center {
-  text-align: center;
-}
-
-.text-bg-dark {
-  text-align: center;
-}
-
-.fa-solid, .fas {
-  font-weight: 900;
-  font-size: x-large;
-}
-
-#logo {
   font-size: xx-large;
 }
 
@@ -83,24 +77,9 @@ text-align: center;
   --bs-btn-hover-border-color: #BFD47B;
 }
 
-.nav-link {
-  margin: 30px;
-}
+
 
 /*--------------------------------------------------------------------Homepage mid section--------------------------------------------*/
-
-.bg-beige {
-  background-color: #EEE6D3;
-}
-
-.background-mintcream {
-  background-color:#CAE8DC;
-}
-
-.text-bg-dark {
-  color: #fff!important;
-  background-color: #3B7962!important;
-}
 
 .footer-content {
   color:#EEE6D3;
@@ -110,3 +89,49 @@ text-align: center;
   text-align: center;
 }
 
+.text-icon-center {
+  text-align: center;
+}
+
+
+/*--------------------------------------------------------------------How it works--------------------------------------*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.step-1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.step-2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.image-container {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.step-3 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.step-4 {
+  grid-column: 3;
+  grid-row: 2;
+}
