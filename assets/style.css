@@ -32,14 +32,14 @@ body{
   }
 
   .quote-header {
-color: #f5fffa;
+color: #EEE6D3;
 text-align: center;
 margin-top: 200px;
 margin-bottom: 0;
   }
 
   #quote-author{
-    color: #f5fffa;
+    color: #EEE6D3;
 text-align: center;
   }
 
@@ -49,11 +49,19 @@ text-align: center;
   
 .nav-top-bg-colour {
   background-color: #3B7962;
-  color: #fff;
+  color: #EEE6D3;
+}
+
+.nav{
+--bs-nav-link-hover-color: #27D1C6;
 }
 
   .navbar-background {
   background-color: #cae8dc;
+}
+
+.text-off-white {
+  color:#EEE6D3;
 }
 
 .faq-padding {
@@ -98,6 +106,8 @@ text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  text-align: center;
+  color: #1B4E3B;
 }
 
 .step-1 {
@@ -144,6 +154,6 @@ background-color: #3B7962
   color:#EEE6D3;
 }
 
-.flex-container {
-  display: flex;
+.social-center {
+text-align: center;
 }
