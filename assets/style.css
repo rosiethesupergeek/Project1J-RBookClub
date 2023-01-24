@@ -43,7 +43,7 @@ margin-bottom: 0;
 text-align: center;
   }
 
-/*----------------------------------------------------------background image 2--------------------------------------------------------*/
+/*----------------------------------------------------------background image 2--------------------------------------------------*/
 
   .bgimage2 {
     width:100%;
@@ -70,6 +70,64 @@ margin-bottom: 0;
     color: #EEE6D3;
 text-align: center;
   }
+
+
+  /*----------------------------------------------------------background image 3---------------------------------------------*/
+
+  .bgimage3 {
+    width:100%;
+    height:500px;
+    background: url(../images/old-and-young.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .bgimage3 h5 {
+    color:white;
+    text-shadow:2px 2px #333;
+  }
+
+  .quote-header3 {
+color: #EEE6D3;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 0;
+  }
+
+  #quote-author3 {
+    color: #EEE6D3;
+text-align: center;
+  }
+
+  /*----------------------------------------------------------background image 4---------------------------------------------*/
+
+  .bgimage4 {
+    width:100%;
+    height:500px;
+    background: url(../images/loneliness.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .bgimage4 h5 {
+    color:white;
+    text-shadow:2px 2px #333;
+  }
+
+  .quote-header4 {
+color: #EEE6D3;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 0;
+  }
+
+  #quote-author4 {
+    color: #EEE6D3;
+text-align: center;
+  }
+
 
   /*-------------------------------------------------------------------------------------------NAVBAR---------------------------------*/
 
@@ -193,7 +251,7 @@ border-radius: 50%;
 
 }
 
-.crazy-lady {
+.happy-lady {
   height:250px;
   width: 250px;
   background-position: center;
