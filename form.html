@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up for J&R</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/9b87d09d39.js" crossorigin="anonymous"></script>
+    <link href="../assets/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="px-3 py-2 nav-top-bg-colour">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <p id="logo">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <h1 class="display-h2 fw-lighter m-2">J&R</h1>
+                    </p>
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    </a>
+
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 fs-6">
+                        <li>
+                            <a href="index.html" class="nav-link text-off-white text-icon-center">
+                                <i class="fa-solid fa-house-user icon-center fs-2"></i>
+                                <div>Home</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="whatisj&r.html" class="nav-link text-off-white text-icon-center">
+                                <i class="fa-solid fa-question icon-center fs-2"></i>
+                                <div>What is J&R?</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="members-stories.html" class="nav-link text-off-white text-icon-center">
+                                <i class="fa-solid fa-comments icon-center fs-2"></i>
+                                <div>Member's Stories</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="loneliness.html" class="nav-link text-off-white text-icon-center">
+                                <i class="fa-solid fa-people-group icon-center fs-2"></i>
+                                <div>Combatting Loneliness</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="safety-security.html" class="nav-link text-off-white text-icon-center">
+                                <i class="fa-solid fa-user-shield icon-center fs-2"></i>
+                                <div>Safety & Security</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.html" class="nav-link text-off-white text-icon-center faq-padding">
+                                <i class="fa-sharp fa-solid fa-circle-question fs-2"></i>
+                                <div>FAQs</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <form>
+            <div class="form-row d-flex flex-column justify-content-center p-5">
+                <div class="form-group col-md-6">
+                    <label for="First-name">First Name</label>
+                    <input type="text" id="First-name" class="form-control" placeholder="First name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="Last-name">Last Name</label>
+                    <input type="text" id="Last-name" class="form-control" placeholder="Last name" required>
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="col-md-6">
+                    <label for="contact-number">Contact Telephone number</label>
+                    <input type="text" class="form-control" id="contact-number" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="d-o-b">Date of birth</label>
+                    <input type="text" class="form-control" id="d-o-b" placeholder="DD/MM/YYYY" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputCity">City or county</label>
+                    <input type="text" class="form-control" id="inputCity" required>
+                </div>
+
+                <div>Where would you like your person to be situated (if possible)?</div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="radio" name="area" id="local" value="local" checked>
+                    <label class="form-check-label" for="local">
+                        Local
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="radio" name="area" id="uk-wide" value="uk-wide">
+                    <label class="form-check-label" for="uk-wide">
+                        UK wide
+                    </label>
+                </div>
+                <div class="form-check col-md-6">
+                    <input class="form-check-input" type="radio" name="area" id="dont-mind" value="dont-mind">
+                    <label class="form-check-label" for="dont-mind">
+                        Don't mind
+                    </label>
+                </div>
+                <div class="col-md-6">
+                    <label for="Reason-for-joining">Why would you like to join Jean&Rose Bookclub?</label>
+                    <textarea class="form-control" id="Reason-for-joining" rows="3"></textarea>
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                </div>
+            </div>
+        </form>
+
+        <footer class="footer">
+            <div class="container-fluid text-center footer-content">
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col fs-5">
+                        Designed for open minded individuals who want to connect.
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="container-fluid text-center mb-4">
+                <h4 class="footer-content pt-3 fs-5">Find us on socials</h4>
+            </div>
+
+            <!----------------------------------------------------------------------------------------------------social links--->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-2">
+                        <div class="social-center">
+                            <a href="https://www.instagram.com/" style="color: #EEE6D3;" target="_blank"><i
+                                    class="fa-brands fa-instagram fs-2 pb-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="social-center">
+                            <a href="https://en-gb.facebook.com/" style="color: #EEE6D3;" target="_blank"><i
+                                    class="fa-brands fa-facebook fs-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="social-center">
+                            <a href="https://www.pinterest.co.uk/" style="color: #EEE6D3;" target="_blank"><i
+                                    class="fa-brands fa-pinterest fs-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
