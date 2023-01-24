@@ -81,7 +81,6 @@ text-align: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    background-attachment: fixed;
   }
   .bgimage3 h5 {
     color:white;
@@ -108,8 +107,7 @@ text-align: center;
     background: url(../images/loneliness.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
+    background-size:cover; 
   }
   .bgimage4 h5 {
     color:white;
@@ -127,6 +125,62 @@ margin-bottom: 0;
     color: #EEE6D3;
 text-align: center;
   }
+
+  /*----------------------------------------------------------background image 5---------------------------------------------*/
+
+  .bgimage5 {
+    width:100%;
+    height:500px;
+    background: url(../images/safety.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+
+  .bgimage5 h5 {
+    color:white;
+    text-shadow:2px 2px #333;
+  }
+
+  .quote-header5 {
+color: #EEE6D3;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 0;
+  }
+
+  #quote-author5 {
+    color: #EEE6D3;
+text-align: center;
+  }
+
+/*----------------------------------------------------------background image 6---------------------------------------------*/
+
+.bgimage6 {
+  width:100%;
+  height:500px;
+  background: url(../images/questions.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.bgimage6 h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+.quote-header6 {
+color: #EEE6D3;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 0;
+}
+
+#quote-author6 {
+  color: #EEE6D3;
+text-align: center;
+}
 
 
   /*-------------------------------------------------------------------------------------------NAVBAR---------------------------------*/
