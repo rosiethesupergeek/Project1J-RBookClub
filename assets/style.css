@@ -34,13 +34,13 @@ body{
 
 .better-colors:hover {
   color: #1B4E3B;
-  background-color: #BFD47B; ;
+  background-color: #BFD47B;
   text-decoration: none;
   border-color: #3B7962;
 }
 
 .nav-link:hover {
-  color: #27D1C6;
+  color: #BFD47B;
 }
 
 .bgimage1 {
@@ -339,4 +339,39 @@ border-radius: 50%;
   background-repeat: no-repeat;
   border-radius: 50%;
   margin: auto;
+}
+
+.older-gent {
+  height:250px;
+  width: 250px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.older-lady-glasses {
+  height:250px;
+  width: 250px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/*-----------------------------------------------------Form------------------------------------------------------------*/
+
+.btn-primary {
+  color: #EEE6D3;
+  background-color: #3B7962 ;
+  border-color: #3B7962;
+}
+
+
+.btn-primary:hover {
+  color: #3B7962;
+  background-color: #BFD47B ;
+  border-color: #BFD47B;
 }
