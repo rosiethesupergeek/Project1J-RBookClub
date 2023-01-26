@@ -43,6 +43,12 @@ body{
   color: #BFD47B;
 }
 
+.btn-primary.active, .btn-primary:active {
+  color: #fff;
+  background-color: #3B7962;
+  border-color: #3B7962;
+}
+
 .bgimage1 {
     width:100%;
     height:500px;
@@ -103,25 +109,25 @@ text-align: center;
   .bgimage3 {
     width:100%;
     height:500px;
-    background: url(../images/old-and-young.jpg);
+    background: url(../images/young-old-mod-comp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
   }
   .bgimage3 h5 {
-    color:white;
+    color:#5C646B;
     text-shadow:2px 2px #333;
   }
 
   .quote-header3 {
-color: #EEE6D3;
+color: black;
 text-align: center;
 margin-top: 200px;
 margin-bottom: 0;
   }
 
   #quote-author3 {
-    color: #EEE6D3;
+    color: black;
 text-align: center;
   }
 
@@ -219,7 +225,68 @@ text-align: center;
 
   /*-------------------------------------------------------------------------------------------NAVBAR---------------------------------*/
 
-  
+/*----------------------Homepage*/  
+#highlighted {
+  color:#BFD47B;
+}
+
+#highlighted2 {
+  color:#BFD47B;
+}
+
+/*----------------------What is J&R?*/  
+#highlighted1 {
+  color:#BFD47B;
+}
+
+#highlighted3 {
+  color:#BFD47B;
+}
+
+/*----------------------Members Stories*/  
+
+#highlighted4 {
+  color:#BFD47B;
+}
+
+#highlighted5 {
+  color:#BFD47B;
+}
+
+/*----------------------Loneliness*/  
+
+#highlighted6 {
+  color:#BFD47B;
+}
+
+#highlighted7 {
+  color:#BFD47B;
+}
+
+/*----------------------Safety&Security*/  
+
+#highlighted8 {
+  color:#BFD47B;
+}
+
+#highlighted9 {
+  color:#BFD47B;
+}
+
+/*----------------------FAQs*/  
+
+#highlighted10 {
+  color:#BFD47B;
+}
+
+#highlighted11 {
+  color:#BFD47B;
+}
+
+
+
+
+
 .nav-top-bg-colour {
   background-color: #3B7962;
   color: #EEE6D3;
@@ -258,6 +325,9 @@ text-align: center;
   --bs-btn-hover-border-color: #BFD47B;
 } */
 
+.nav-link:focus{
+  color: #BFD47B;
+}
 
 
 /*--------------------------------------------------------------------Homepage mid section--------------------------------------------*/
