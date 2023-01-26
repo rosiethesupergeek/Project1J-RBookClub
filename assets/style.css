@@ -2,7 +2,7 @@
 
 body{
     background-color: #9FC7AA;
-  };
+  }
 
 
 #font-color-1 {
@@ -208,6 +208,14 @@ margin-bottom: 0;
 text-align: center;
 }
 
+/*----------------------------------------------------------background image 7 (form page)------------------------------------------*/
+
+.bgimage7 {
+  background: url(../images/bookshelf-full.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
 
   /*-------------------------------------------------------------------------------------------NAVBAR---------------------------------*/
 
@@ -378,6 +386,10 @@ border-radius: 50%;
 
 .border-color {
   border-color: #3B7962;
+}
+
+.bg-color {
+  background-color: #BFD47B ;
 }
 
 /*--------------------------------------------Loneliness page------------------------------------------------------------*/
