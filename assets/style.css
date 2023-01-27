@@ -75,6 +75,11 @@ margin-bottom: 0;
 text-align: center;
   }
 
+  .text-color-main {
+    color:#1B4E3B
+  }
+  
+
 /*----------------------------------------------------------background image 2--------------------------------------------------*/
 
   .bgimage2 {
@@ -284,7 +289,14 @@ text-align: center;
 }
 
 
+/*----------------responsive navbar-------------*/
 
+@media screen and (max-width: 576px) {
+  
+  .responsive-nav {
+   font-size: xx-small;
+  }
+}  
 
 
 .nav-top-bg-colour {
@@ -465,8 +477,9 @@ border-radius: 50%;
 /*--------------------------------------------Loneliness page------------------------------------------------------------*/
 
 .cup-of-tea {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
+  padding-top: 30%;
 }
 
 /*--------------------------------------------FAQs page------------------------------------------------------------*/
