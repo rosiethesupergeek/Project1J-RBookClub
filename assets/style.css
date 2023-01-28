@@ -291,12 +291,7 @@ text-align: center;
 
 /*----------------responsive navbar-------------*/
 
-@media screen and (max-width: 576px) {
-  
-  .responsive-nav {
-   font-size: xx-small;
-  }
-}  
+
 
 
 .nav-top-bg-colour {
@@ -304,9 +299,6 @@ text-align: center;
   color: #EEE6D3;
 }
 
-.nav{
---bs-nav-link-hover-color: #27D1C6;
-}
 
   .navbar-background {
   background-color: #cae8dc;
@@ -341,6 +333,9 @@ text-align: center;
   color: #BFD47B;
 }
 
+.nav-link {
+  color: #EEE6D3;
+}
 
 /*--------------------------------------------------------------------Homepage mid section--------------------------------------------*/
 

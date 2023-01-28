@@ -20,66 +20,80 @@
               <i class="fa-solid fa-book-open-reader"></i>
               <h1 class="display-h2 fw-lighter m-2">J&R</h1>
             </p>
-            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-            </a>
-
+            <div class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            </div>
             <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 fs-6">
-              <li class="nav-item">
+              <li class="nav-item d-none d-md-flex">
                 <a href="index.html" class="nav-link text-off-white text-icon-center">
                   <i id="highlighted" class="fa-solid fa-house-user icon-center fs-2"></i>
                   <div id="highlighted2">Home</div>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-xxs-flex">
                 <a href="whatisj&r.html" class="nav-link text-off-white text-icon-center">
                   <i class="fa-solid fa-question icon-center fs-2"></i>
                   <div>What is J&R?</div>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-xxs-flex">
                 <a href="members-stories.html" class="nav-link text-off-white text-icon-center">
                   <i class="fa-solid fa-comments icon-center fs-2"></i>
                   <div>Member's Stories</div>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-none d-lg-flex">
                 <a href="loneliness.html" class="nav-link text-off-white text-icon-center">
                   <i class="fa-solid fa-people-group icon-center fs-2"></i>
                   <div>Combatting Loneliness</div>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-none d-lg-flex">
                 <a href="safety-security.html" class="nav-link text-off-white text-icon-center">
                   <i class="fa-solid fa-user-shield icon-center fs-2"></i>
                   <div>Safety & Security</div>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-none d-lg-flex">
                 <a href="faq.html" class="nav-link text-off-white text-icon-center faq-padding">
                   <i class="fa-sharp fa-solid fa-circle-question fs-2"></i>
                   <div>FAQs</div>
                 </a>
+              </li>
+              <li class="nav-item dropdown d-xxs-flex d-lg-none">
+                <a class="nav-link dropdown-toggle text-off-white text-icon-center" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-sharp fa-solid fa-circle-question fs-2"></i>
+                  <div>More info</div>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="loneliness.html">Combatting Loneliness</a></li>
+                  <li><a class="dropdown-item" href="safety-security.html">Safety & Security</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                  <li><a class="dropdown-item" href="form.html">Join Us!</a></li>
+                  <li><a class="dropdown-item" href="#">login</a></li>
+                </ul>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="px-3 py-2 mb-3">
-        <div class="container d-flex flex-wrap justify-content-center">
-          <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-            <input type="search" class="form-control" placeholder="Enter book title..." aria-label="Search">
-          </form>
-
-
-          <div class="text-end">
-            <button type="button" class="btn btn-light text-dark me-2 rounded-edges">Login</button>
-            <button type="button" class="btn btn-primary rounded-edges better-colors">
-              <a class="better-colors" href="form.html">Sign-up</a></button>
+        <div class="container flex-wrap">
+          <div class="row justify-content-start">
+            <form class="col mb-2 mb-lg-0 me-lg-auto  col-lg-auto d-none d-md-flex" role="search">
+              <input type="search" class="form-control" placeholder="Enter book title..." aria-label="Search">
+            </form>
+            <div class="col text-end d-none d-md-flex justify-content-end">
+              <button type="button" class="btn btn-light text-dark me-2 rounded-edges">Login</button>
+              <button type="button" class="btn rounded-edges better-colors">
+                <a class="better-colors" href="form.html">Sign-up</a></button>
+            </div>
           </div>
         </div>
       </div>
-      </div>
-
     </nav>
   </header>
 
@@ -144,22 +158,39 @@
   </div>
 
 
-<div class="row">
-  <div class="col">
-    <h1>
-      Hljsdlfjfdsjkk
-    </h1>
-  </div>
+  <div class="row">
+    <div class="col">
+      <h1>
+        Hljsdlfjfdsjkk
+      </h1>
+    </div>
 
-  <div class="col">
-    <img class="image" src="/images/book-mid-image.png" alt="three people reading">
-  </div>
-  
-  <div class="col">
+    <div class="col">
+      <img class="image" src="/images/book-mid-image.png" alt="three people reading">
+    </div>
+
+    <div class="col">
       <h1>sdlfkj;lfds;kjfds;kfds;fds</h1>
+    </div>
   </div>
-</div>
 
+
+  <div class="row">
+    <div class="col justify-content-start">
+      <h1>
+        Hljsdlfjfdsjkk
+      </h1>
+    </div>
+
+    <!-- <div class="col">
+      <img class="image" src="/images/book-mid-image.png" alt="three people reading">
+    </div> -->
+
+    <div class="col justify-content-end">
+      <h1>sdlfkj;lfds;kjfds;kfds;fds</h1>
+    </div>
+  </div>
+ 
 
   <footer class="footer">
     <div class="container text-center footer-content">
