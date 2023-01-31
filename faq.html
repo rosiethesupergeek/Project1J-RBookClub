@@ -26,8 +26,8 @@
             <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 fs-6">
               <li class="nav-item d-none d-md-flex">
                 <a href="index.html" class="nav-link text-off-white text-icon-center">
-                  <i id="highlighted" class="fa-solid fa-house-user icon-center fs-2"></i>
-                  <div id="highlighted2">Home</div>
+                  <i class="fa-solid fa-house-user icon-center fs-2"></i>
+                  <div>Home</div>
                 </a>
               </li>
               <li class="nav-item d-xxs-flex">
@@ -56,8 +56,8 @@
               </li>
               <li class="nav-item d-none d-lg-flex">
                 <a href="faq.html" class="nav-link text-off-white text-icon-center faq-padding">
-                  <i class="fa-sharp fa-solid fa-circle-question fs-2"></i>
-                  <div>FAQs</div>
+                 <div class="highlighted"> <i class="fa-sharp fa-solid fa-circle-question fs-2"></i></div>
+                  <div class="highlighted">FAQs</div>
                 </a>
               </li>
               <li class="nav-item dropdown d-xxs-flex d-lg-none">
@@ -94,33 +94,36 @@
               </div>
               <div>
                 <button type="button" class="btn btn-light text-dark me-2 rounded-edges">Login</button>
-                <button type="button" class="btn rounded-edges better-colors" onclick="window.location.href='form.html';">Sign-up
+                <button type="button" class="btn rounded-edges better-colors"
+                  onclick="window.location.href='form.html';">Sign-up
                 </button>
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </nav>
   </header>
 
 
-  <section class="bgimage6">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+    <div class="bgimage6" aria-label="a post-it note that says 'questions' on it">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          </div>
         </div>
       </div>
     </div>
-  </section>
 
 
   <div class="container">
     <div class="row">
       <div class="col-12 text-center pt-5 text-color-main">
-        <h2>Got a burning question?
+        <h2>Got a burning question?</h2>
           <hr>
-          <small class="text-muted text-lighter">Let's see if we can answer it...if you can't find your answer then
-            please do get in touch!</small>
-        </h2>
+          <h3><small class="text-muted text-lighter">Let's see if we can answer it...if you can't find your answer then
+            please do get in touch!</small></h3>
       </div>
     </div>
 
@@ -168,13 +171,13 @@
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+            <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Is there a membership fee?
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>At the moment we have a deal with council libraries to run J&R for free!</strong> But this might
@@ -185,13 +188,13 @@
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+            <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 What do I do if I have a safety concern?
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>Your safety is extremely important to us.</strong> First of all, it's important to have taken
@@ -204,13 +207,13 @@
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+            <h2 class="accordion-header" id="headingFive">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 Are there any rules and expectations?
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>We expect all members to behave with respect towards each other at all times.</strong>Jean&Rose
@@ -223,13 +226,13 @@
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+            <h2 class="accordion-header" id="headingSix">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                 What if I find that I don't click with the person I am paired with?
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>As much as we want to create stronger community connections, not everyone can be your cup of
@@ -241,13 +244,13 @@
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+            <h2 class="accordion-header" id="headingSeven">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                 How do I select a book in the library?
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong> First of all, login through the J&R website (you can find the login button at the top of every
@@ -260,13 +263,13 @@
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
+            <h2 class="accordion-header" id="headingEight">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                 Are there any reading level requirements?
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>No, we encourage you to join and have fun whatever your reading level.</strong>
@@ -292,11 +295,11 @@
   <div class="container p-3 pb-5">
     <div class="row justify-content-center">
 
-      <a href="#" class="col-5 col-sm-3 btn btn-primary active" aria-pressed="true">Back to top</a>
+      <a href="#" class="col-5 col-sm-3 btn btn-primary active" aria-pressed="true" role="button">Back to top</a>
     </div>
   </div>
 
-  </section>
+  
 
   <footer class="footer">
     <div class="container text-center footer-content">
@@ -313,7 +316,7 @@
       <h4 class="footer-content pt-3 fs-5">Find us on socials</h4>
     </div>
 
-    <!----------------------------------------------------------------------------------------------------social links--->
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~social links~~~-->
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-2">
