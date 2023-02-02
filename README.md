@@ -410,8 +410,6 @@ The nav bar is present on all pages and has large clear icons that are easily cl
 
 Even on small screens the "What is J&R?" and "Members Stories" stay visible because if it your first visit to the site you might want to have more details about J&R is about. 
 
-The only page which does not have every navigation button available is the "sign-up" page because it seems counter-intuitive to have a button that sends you back to the page the user is already on. 
-
 The ability to navigate between pages without using the "back" button makes for better UX and means that you can navigate to anywhere on the website with a maximum of 3 clicks.
   
 <br>  
@@ -607,12 +605,28 @@ I used Bootstrap grid system in order to ensure a responsive design for all scre
   
 ### **Tablet View (iPad Mini/iPad Pro/Surface Pro)**  
   
-![screenshots of J&R website on ipad pro]()
+![screenshot of J&R website on ipad mini](/documents/ipad-mini-view.png)
+
+![screenshot of J&R website on surface pro 7](/documents/ipad-air.png)
+
+![screenshot of J&R website on ipad air](/documents/surface-pro-7.png)
 
 
-### **Mobile View (iPhone 5/iPhone SE/iPhone XR/iPhone 12 Pro)**  
-  
-![screenshot of J&R website on iPhone 12 Pro]()
+### **Mobile View (iPhone SE/iPhone XR/iPhone 12 Pro/pixel 5/samsung galaxy s8/samsung galaxy s20 ultra)**  
+
+![screenshot of J&R website on iphone SE](/documents/iphone-se.png)
+
+![screenshot of J&R website on iphone xr](/documents/iphone-xr.png)
+
+![screenshot of J&R website on iphone 12 pro](/documents/iphone12pro.png)
+
+![screenshot of J&R website on pixel 5](/documents/pixel-5.png)
+
+![screenshot of J&R website on Samsung Galaxy S8+](/documents/samsung-galaxy-s8.png)
+
+![screenshot of J&R website on Samsung Galaxy S20 Ultra](/documents/samsung-galaxy-s20-ultra.png)
+
+
 
 ---  
                               
@@ -642,7 +656,7 @@ I used Bootstrap grid system in order to ensure a responsive design for all scre
 - Bootstrap - used to create the framework of the whole site.
 - Font Awesome - all icons were downloaded from here as there was a problem with Bootstrap icons. 
 - Adobe Color - used to test colour contrast.  
-- Google Dev Tools - used to test responsiveness and to find out what was going on with any bugs.
+- Google Dev Tools - used to test responsiveness and to find out what was going on with any problems with the site.
 - W3C Validator - used to check for errors in CSS and HTML code.
 
 ---   
@@ -654,71 +668,82 @@ I used Bootstrap grid system in order to ensure a responsive design for all scre
 
 GitHub is used to deploy the J&R site.
 
+
+
 ---  
     
 
 ## Testing  
 
-### **Initial testing plan**
-
-I had planned for this site to be accessible and legible on all screen sizes. The user is viewing the site primarily for the menu options and parlour location and they needed to access this information with one click. I used Chrome Dev Tools to test, tweak and debug in the early stages. I deployed my site halfway through to test on real-world devices. These devices included:  
-- Acer Aspire 3 Laptop (1920 X 1080)  
-- Huawei AD80HW 24" Monitor
-- iPad Pro 2021
-- iPhone SE(2016)
-- Huawei p30 Lite 
-- iPhone 11/13
-- Samsung Galaxy s10 
-  
-### **Testing**    
-
-Testing took place throughout the entire build using Dev Tools on Chrome and on the above real-world devices. The browsers used were:  
-- Chrome  
-- Firefox  
-- Edge  
-- Safari  
+I constantly tested the J&R site by using Chrome dev tools to see that it was styled in the way that I wanted it to be and to see if the functions I wanted it to have were working.
   
 The results of feature testing are as follows:  
   
 | Page | Test | Pass/Fail |
 | :----| :----| :--------:|
-| All  | SCOOPS logo links back to homepage | Pass |
-| All  | Underline appears under navigation items when the mouse hovers | Pass |
-| All  | Underline stays under active navigation item | Pass |
-| All  | Navigation links bring the user to relevant page | Pass |
-| All  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
-| All  | 'Find Us' heading in footer links to contact page | Pass |
-| All  | Images and sections are responsive in different media sizes | Pass |
-| Index| Hero image zooms in on loading | Pass |
-| Index| Call to Action button links to menu page | Pass | 
-| Menu | Menu is scrollable | Pass |
-| Menu | Menu items are clear and legible | Pass |
-| Contact | Contact form required elements are responsive | Pass |
-| Contact | Form submit button brings you to a validation page | Pass |
-| Contact | Google Map is interactive and opens in a new tab for a larger map | Pass |
+| All  | "Back to top" button brings the user to the top of the page | Pass |
+| All  | Current page remains highlighted in lime green in the navbar | Pass |
+| All  | Navigation links bring the user to the right page | Pass |
+| All  | Social media links in the footer take the user to a new tab with the corresponding site opening | Pass |
+| All  | Sign-up button takes the user to the sign up page | Pass |
+| All  | All images and sections are responsive on different screen sizes | Pass |
+| All  | Images and text are clear and can be read easily | Pass |
+| Form    | Form can be filled out and submitted | Pass |
+| Form    | Submit button brings the user to the Thank you page | Pass |
 
 Further device testing took place in Dev Tools on:
-  - iPhone 4/5/6/7/8
-  - iPhone XR/ iPhone 12 Pro
+  - iPhone SE
+  - iphone XR
+  - iPhone 12 Pro
   - Pixel 5
-  - Samsung Galaxy s20
+  - Samsung Galaxy s8+
+  - Samsung Galaxy s20 ultra
+  - ipad air
+  - ipad mini
+  - ipad pro
+  - surface pro7
+  - Surface Duo
+  - Galaxy fold
+  - Samsung Galaxy A51/71
+  - Nest hub
+  - Nest hub max
 
  
 ### **HTML Validation using W3C Validation**  
 <details open>
-<summary>Index/landing page HTML validation</summary>  
+<summary>Index HTML validation</summary>  
 
-![screenshot of index page w3c html validation for SCOOPS](docs/documentation/w3c_index.png)
+![screenshot of index page w3c html validation for J&R](/documents/homepage-validation.png)
 </details>   
 <details>
-<summary>Menu page HTML validation</summary>  
+<summary>What is J&R page HTML validation</summary>  
 
-![screenshot of menu page w3c html validation for SCOOPS](docs/documentation/w3c_menu.png)
+![screenshot of J&R page w3c html validation for J&R](/documents/jandr-validation.png)
 </details>  
-<details>
-<summary>Contact page HTML validation</summary>  
 
-![screenshot of contact page w3c html validation for SCOOPS](docs/documentation/w3c_contact.png)
+
+<details>
+<summary>Members Stories page HTML validation</summary>  
+
+![screenshot of members stories page w3c html validation for J&R](/documents/members-stories-validation.png)
+</details>  
+
+<details>
+<summary>Combating loneliness page HTML validation</summary>  
+
+![screenshot of loneliness page w3c html validation for J&R](/documents/loneliness-validation.png)
+</details>  
+
+<details>
+<summary>Safety & Security page HTML validation</summary>  
+
+![screenshot of contact page w3c html validation for J&R]()
+</details>  
+
+<details>
+<summary>FAQs page HTML validation</summary>  
+
+![screenshot of contact page w3c html validation for J&R](/documents/faq-validation.png)
 </details>  
   
 <br>  
@@ -726,9 +751,9 @@ Further device testing took place in Dev Tools on:
 ### **CSS Validation using W3C Validation** 
 
 <details open>
-<summary>SCOOPS CSS validation</summary>  
+<summary>J&R CSS validation</summary>  
 
-![screenshot of CSS validation for SCOOPS](docs/documentation/w3c_css.png)
+![screenshot of CSS validation for J&R](/documents/css-validate.png)
 </details>   
 
 <br>  
@@ -786,11 +811,9 @@ For Mobile
 
 ### **Unsolved Bugs** 
 
-- On viewing my deployed site on Safari browser, I found the Josefin Sans font to be displayed differently in the header elements. The website is still displayed adequately despite this issue. I will continue my learning to understand how to combat small, browser display differences to discover if I can overcome this.
+- I am yet to learn how to make a phone number clickable and I haven't managed to position the phone number exactly where I want it to be on the page yet. These are things I will explore further and work out how to do in the future.
 
-- On occasion, when viewing my website in Dev Tools, a small amount of whitespace appears to the right of the Home page. When I refresh the page or clear the cache, this issue resolves itself. I have not figured out yet why this happens on rare occasion.
-
-- Even though my site is responsive on Dev Tools and on real world devices, it does not work on multiple-media, screenshot generating websites like 'ui.dev/amiresponsive'. It appears zoomed in, similar to the viewport meta tag issue as documented above. I have yet to figure out why this is the case.
+- Sometimes when I use the repsonsive feature in Chrome dev tools, on a very small screen the J&R home page will have white space to the right of it, for the whole way down the site. When I go to explore this by hovering over the affected areas to highlight the code that is causing this, it will suddenly correct itself.
 
 ---  
 
@@ -818,9 +841,7 @@ For Mobile
 
 
 ### **Acknowledgements** 
-- I would like to acknowledge my Code Institute mentor, Rahul Lakhanpal, for his guidance and encouragement on this project.
-- My family for testing my work and offering positive thoughts and hot cups of tea throughout the pro
-
+- Richey Malhotra for his excellent teaching skills and endless patience.
 
 
 
