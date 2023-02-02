@@ -262,82 +262,86 @@ The J&R site was developed to be consistent, trustworthy and easy to navigate.
 ![homepage wireframe-mobile](/documents/Homepage-mobile.png)
 </details> 
 
-
 <details >
 <summary>Wireframe - What is J&R page Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/menudesktop_wireframe.png)
+![What is J&R wireframe-desktop](/documents/what-is-jandr-desktop.png)
 </details> 
-
 <details>
 <summary>Wireframe - What is J&R page Mobile</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/menumobile_wireframe.png)
+![what is j&r wireframe-mobile](/documents/what-is-jandr-mobile.png)
 </details>    
+
+
 <details>
 <summary>Wireframe - Member's Stories page Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/contactdesktop_wireframe.png)
+![members-stories-desktop](/documents/members-stories-desktop.png)
 </details> 
 <details>
 <summary>Wireframe - Member's Stories page Mobile</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/contactmobile_wireframe.png)
+![members-stories-mobile](/documents/members-stories-mobile.png)
 </details>              
 
+<details>
 <summary>Wireframe - Combatting Loneliness page Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/menudesktop_wireframe.png)
+![loneliness wireframe-desktop](/documents/loneliness-desktop.png)
 </details> 
 <details>
 <summary>Wireframe - Combatting Loneliness page Mobile</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/menumobile_wireframe.png)
+![loneliness wireframe-mobile](/documents/loneliness-mobile.png)
 </details>    
 
 <details>
 <summary>Wireframe - Safety & Security page Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/contactdesktop_wireframe.png)
+![safety&security wireframe-desktop](/documents/Safety-and-security-desktop.png)
 </details> 
 <details>
 <summary>Wireframe - Safety & Security page Mobile</summary>  
 
+![safety&security wireframe-mobile](/documents/Safety-and-security-mobile.png)
 
 <details>
 <summary>Wireframe - FAQs page Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/contactdesktop_wireframe.png)
+![FAQ wireframe-desktop](/documents/FAQs-desktop.png)
 </details> 
 <details>
 <summary>Wireframe - FAQs page Mobile</summary>  
 
+![FAQ wireframe-mobile](/documents/FAQ-page-mobile.png)
+
 <details>
 <summary>Wireframe - Form page Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/contactdesktop_wireframe.png)
+![Form wireframe-mobile](/documents/form-desktop.png)
 </details> 
 <details>
 <summary>Wireframe - Form page Mobile</summary>  
 
-<summary>Wireframe - Thank you page Desktop</summary>  
+![Form wireframe-mobile](/documents/form-page-mobile.png)
 
-![homepage wireframe-mobile & desktop](docs/documentation/contactdesktop_wireframe.png)
-</details> 
-<details>
-<summary>Wireframe - Thank you page Mobile</summary>  
-
-
+</details>
 
 ### **5. Surface**  
 
- A design was created that allowed a consistent flow throughout the three-page site.   
- - A background was designed to reflect the cone wrapper used by the SCOOPS parlour. The striped, two-tone panel adorns each page, clearly identifying the SCOOPS brand.  
-- A palette of blues and reds was created, similar to the interior of the parlour.  
-- A clean, sans-serif font, 'Josefin sans' was used in a medium weight to provide legible text at any size. 
-- Corners on all elements were rounded to maintain a retro feel. 
+ - I designed the J&R site so that you can access every page with a maximum of 3 clicks in order to make the site intuitive to use and avoid cognitive overload. I also added "back to top" buttons on pages with lots of text. 
 
-Overall, the design was intended and created to foster the emotional and familiar connection customers have with the parlour.  
+ - I designed the site to have a balance between enough information, but not too much text in one go, using accordians, cards and images in order to break down the information. Considering that my target audience is keen readers I have more text than I would have on a site that was not for such a text keen audience.
+
+ - Colour palette: I chose a mixture of greens in order to convey calm and quiet. Greens are often associated with peace and nature which is an ideal situation for reading a book. This will also to help users who aren't as confident with using the internet to have as relaxing an experience as possible. The majority of greens used cater to an older audience, but I also use a bright lime green to give the site a flair of youth! Lime green is full of zest and energy.
+  
+- Images of cosy libraries and young and old people talking together were used throughout the site to demonstrate the pleasant environments and connections that joining J&R could lead to.  
+- Font:
+- Corners on images used in articles were rounded in order to create a softer and more friendly feel to the site.
+- A circular image was used in the middle of the steps to join on the homepage as that meant it could fit more easily in the middle of the steps.
+
+The general aim of the design was to evoke calm positive feelings about reading and connecting with others of a different generation.
  
 ---   
   
@@ -346,28 +350,45 @@ Overall, the design was intended and created to foster the emotional and familia
 
 ### **Color Scheme**  
 
-This website used a fresh, bold palette of blues and reds to capture the aesthetic of a traditional ice cream parlour. The colours reminded me of ice cream wrappers and packaging. I combined these with an off-white shade that felt paperlike and clean.  
+the J&R website uses a calming palette of dark green, pastel green, lime green and off-white. These colours make me think of the 1940s and the lime green brings with it a burst of energy which I relate to being youthful.
+
+I went through several stages of discovery before landing on the final colour palette. I started out with this retro palette:
   
-![colour theme swatches](docs/documentation/colourtheme.png)  
+![retro colour palette](/documents/retro-colour-palette.png)  
+
+After trying some of these colours out together on my site I found that they were a bit too garish and not very calm and this is when I put together the greens colour palette:
+
+![greens colour palette](/documents/greens-colour-palette.png)
   
-I experienced an issue with the contrast ratio for my buttons. The ratio of the (#78D5F7) blue and (#F53636) red fell short of the acceptable [WCAG](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) contrast ratio. To fix this and increase the accessibility of my site I used different shades of these colours to conform.  
+I used the following site to find out about colour contrast industry standards: [WCAG](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
+
+I tested the icon and large text contrast for my navigation bar and they passed. Although I discovered I could not have used the same colours for small text!:
   
-![Colour contrast ratio for buttons](docs/documentation/buttoncontrast.png)  
+![Colour contrast ratio for icons](/documents/colour-contrast-icons.png)  
+
+For text the results passed too:
+
+![Colour contrast ratio for text](/documents/text-and-background-colour.png) 
+
+For buttons:
+
+![Colour contrast ratio for buttons](/documents/button-colour-contrast.png) 
+
+I used Adobe color checker to check the contrast ratios of my colours:
   
-[Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) provided this fantastic resource for checking how accessible your colours are. I submitted my palette to the [Color Blind Safe](https://color.adobe.com/create/color-accessibility) check to find they passed this test also.  
-  
-![Color Blind Safe Check](docs/documentation/cb_safe.png)
+[Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) 
   
 ### **Typography**  
   
-[Google Fonts](https://fonts.google.com/) was used to import the fonts 'Josefin Sans' and 'Lato'. I felt the clear, soft lettering suited the intended aesthetic of the website. I had intentions to use Lato for my smaller bodies of text, however, I chose to stick with Josefin to keep the font consistent.   
-  
-![google Fonts Josefin Sans](docs/documentation/josefinfont.png)
-
+I used Bootstrap native fonts. So whatever it is that bootstrap has called in, that's what I have on my site and I don't know how to check what that is. 
         
 ### **Imagery**  
   
-The images that I have chosen for my site reflect the bright, retro aesthetic I am looking for. Close-ups of large displays of ice cream create a positive feeling for the user, prompting them to delve further into the menu section. A large image sits below the menu options, it shows the most popular dessert of a warm brownie with a scoop of delicious ice cream. The sites [pexels.com](https://www.pexels.com/), [unsplash.com](https://unsplash.com/) and [pixabay.com](https://pixabay.com/) provided the royalty-free stock images used throughout the website, with attributions to each photographer placed in the [Credits](#credits) section of this README doc.
+I have chosen impactful images for my site that reflect the topic of each page. The images also relate the quote overlay when there is one.
+
+Each page has a hero image, which keeps the pages consistent in format but also provides an opportunity to give the user the positive emotional response associated with viewing another lovely image. The images were chosen to reflect connection between generations, relate to any overlaying quotes and also to fit the slightly old fashioned feel of the page. For example, the black and white image on the homepage may relate to a time when only black and white photographs were available, this will be a time that older viewers will remember.
+
+The images were all taken from [canva.com](https://www.canva.com) where I have a pro subscription and therefore access to a wide range of imagery.
 
 ---  
   
@@ -378,9 +399,20 @@ The images that I have chosen for my site reflect the bright, retro aesthetic I 
 <details open>
 <summary></summary>  
 
-![screenshot of navbar](docs/documentation/navbar.png) 
+![screenshot of navbar desktop](/documents/navbar-desk.png) 
+
+![screenshot of navbar tablet](/documents/navbar-tab.png) 
+
+![screenshot of navbar mobile](/documents/navbar-mob.png) 
 </details>
-This remains the same across the three pages, in portrait/landscape and mobile/tablet/desktop view.
+
+The nav bar is present on all pages and has large clear icons that are easily clickable. It is fully responsive, some icons go into a dropdown menu at small screen sizes in order to keep the nav bar from taking up too much of the screen. The navigation text is accompanied by large icons in order to aid intuitive use of the website. This site is also aimed at older people as well as young people, as eye sight degeneration is more common in older people, it was important to make the site navigation as clear and obvious as possible in order to avoid cognitive fatigue. 
+
+Even on small screens the "What is J&R?" and "Members Stories" stay visible because if it your first visit to the site you might want to have more details about J&R is about. 
+
+The only page which does not have every navigation button available is the "sign-up" page because it seems counter-intuitive to have a button that sends you back to the page the user is already on. 
+
+The ability to navigate between pages without using the "back" button makes for better UX and means that you can navigate to anywhere on the website with a maximum of 3 clicks.
   
 <br>  
 
@@ -388,63 +420,181 @@ This remains the same across the three pages, in portrait/landscape and mobile/t
 <details open>  
 <summary></summary>
 
-![screenshot of hero image](docs/documentation/heroimage.png)  
+![screenshot of hero image homepage](/documents/hero-home.png)
+
+![screenshot of hero image J&R](/documents/hero-jr.png)
+
+![screenshot of hero image members stories](/documents/hero-members.png)
+
+![screenshot of hero image loneliness](/documents/hero-lonely.png)
+
+![screenshot of hero image safety](/documents/hero-safety.png)
+
+![screenshot of hero image faqs](/documents/hero-faq.png)
+
 </details>
-The hero image remains the same across all devices, with it becoming square-shaped for smaller screens.  
+The hero image is different for each page to reflect the meaning of the page and to evoke a positive emotional response to beautiful images.  
 
 <br> 
-
-### **Tagline & Call to Action**  
-<details open>
-<summary></summary> 
-
-![screenshot of tagline and button](docs/documentation/tagline.png)  
-</details>
-The tagline image has its opacity set to allow the hero image to still show through. The call to action button was given different shades of the original colour palette to allow its contrast ratio to conform to the accessibility needs of the site.
-
-<br>
-
-### **Business Ethos**  
-<details> 
-<summary></summary>
-
-![screenshot of ethos and images](docs/documentation/aboutus.png)  
-
-![screenshot of ethos and images](docs/documentation/dairy.png)  
-
-![screenshot ethos and images](docs/documentation/hereortogo.png)  
-</details>
-Small portions of text with clear headings are accompanied by striking images that reflect the ice cream parlour's products. In tablet/mobile view, these sections are displayed in a column.  
-
-<br>
   
-### **Menu Page** 
+### **Home Page** 
 <details>
 <summary></summary> 
 
-![screenshot of menu page](docs/documentation/menu.png)  
+![screenshot of home page](/documents/homepage-screenshot.png)  
+
+![screenshot of home page below fold](/documents/homepage-below-fold.png) 
+
 </details>
-The striped design occupies the whole page, with off-white backgrounds styled with a lower opacity displaying the menu items available at SCOOPS. A large image of a warm brownie is situated at the end of the menu. The menu format switches to columnar for the tablet/mobile views.
+
+Home Page Hero Image:
+
+
+On the home page there is an eye-catching image of a cosy looking library with a quote overlay. I chose the library picture as this is Heaven for people who like to read, and so should evoke a positive emotional response.
+I chose the quote over-lay because this site is aimed at people who like to read, so they are likely to have a positive emotional response to powerful wording.
+
+How it works section:
+
+This section explains with the use of text and icons how J&R BookClub works. It outlines in numbered steps that are easy to follow, how to sign up and what happens once you have.
+This section should encourage the user to sign up because it shows how easy it is to do so and the benefits of doing so.
+The picture in the centre visualises the friendship and connection that may come from joining.
+
+Back to top button:
+
+This button makes it easy for users to navigate back to the top of the page rather than scrolling. This is a positive user experience feature because it saves people time and makes the site more convenient to navigate, especially as this site has quite a high amount of text.
+
+The Footer:
+
+The footer is very simple and just contains a tagline about the type of person that would enjoy J&R and links to social media for the bookclub. 
+The social media links open in a new tab of their corresponding sites. This encourages users to stay connected with the club via social media, but is purposefully very simple. The target audience for this site is people of different generations who would like to connect. So this means that a large proportion of the audience will be the over 65 age group. This group use the internet and social media less than any other age group so it's important to not have a huge emphasis on social media. 
+The over 65 age group are more likely to be on Facebook and Pinterest than other sites and this is why these social links have been included.
+The footer is fully responsive and is present on every page in order to show consistency which is reassuring to the user.
 
 <br>
 
-### **Contact Page**  
+
+
+### **What is J&R page**  
 <details>
 <summary></summary> 
  
-![screenshot of contact us page](docs/documentation/contact_page.png)  
+![screenshot of J&R page](/documents/J%26R-screenshot.png) 
+
+![screenshot of J&R page below fold](/documents/J%26R-below-fold.png)
+
+![screenshot of J&R page](/documents/J%26R-footer.png)
+
 </details>
-Similar to the menu page design. Two sections for contacting the business with a form element and an embedded, interactive Google map, sitting in a row. These elements switch to columnar format for tablet/mobile views.
+Hero image: every page contains a hero image with a quote overlay for the reasons already specified. The picture changes for each page in order to better reflect the topics of the page. 
+
+For the "What is J&R" page, I chose a picture of two people of different generations talking and smiling together. This was to show the pleasant relationships and friendships that J&R hopes to help people create. By visually showing this to the site user they will be able to see the benefits of joining more easily. 
+
+Cards:
+
+This page then goes on to talk about where the idea of J&R came from, the aim and the outcome. These are put in three seperate cards with images to illustrate what the text is describing. This helps the user to further understand the behind-the-scenes working of the J&R idea and what it aims to achieve.
+This will be valuable to the user as they will be able to gain a more in depth understand of the bookclub. It will also garner a positive emotional response from the user as the images are eyecatching and pleasant and the information is set out in an easy to read way.
+
+Back to top button:
+
+This button makes it easy for users to navigate back to the top of the page rather than scrolling. This is a positive user experience feature because it saves people time and makes the site more convenient to navigate, especially as this site has quite a high amount of text.
+
 
 <br>
 
-### **Footer**  
-<details>
-<summary></summary>
 
-![screenshot of footer](docs/documentation/footer.png) 
+### **Member's Stories page**  
+<details>
+<summary></summary> 
+ 
+![screenshot of Members Stories page](/documents/members-screenshot.png) 
+
+![screenshot of Members stories page below fold](/documents/members-below-fold.png)
+
 </details>
-The footer remains the same throughout the design. It contains important information for the user and a clickable link to the map page in the 'Find Us' heading.  
+
+Hero image with quote:
+
+This time the hero image is of a bridge, because the quote that overlays the picture talks about building bridges between different generations.
+The bridge image is pleasing to look at, calm and has a variety of green colours which work well with the sites colour palette.
+
+Testimonial cards:
+
+This page contains detailed testimonials from current customers, these are useful to the user because they show the benefits of joining and convey the idea of a peer to peer recommendation from other people in the target audience.
+These are set out in cards with an associated image so that the user can easily see the person who has left the testimonial and can see that they are happy to be a part of the bookclub.
+This page is fully responsive too so the cards stack up on smaller screens. This continues to make it easy for the user to understand who the positive quotes are associated with and what people are saying about the bookclub.
+
+Back to top button:
+This button makes it easy for users to navigate back to the top of the page rather than scrolling. This is a positive user experience feature because it saves people time and makes the site more convenient to navigate, especially as this site has quite a high amount of text.
+
+
+### **Combatting Loneliness page**  
+<details>
+<summary></summary> 
+ 
+![screenshot of Loneliness page](/documents/loneliness-screenshot.png) 
+
+![screenshot of Loneliness page below fold](/documents/loneliness-below-fold.png)
+
+</details>
+
+Hero image with quote:
+
+* This picture of a young and old person with their eyes close together and smiling comveys the idea that positive inter-generational relationships can have a positive emotional response.
+* The quote talks about how loneliness can effect anyone, young or old and this fits with the image which brings young and old together.
+
+Article:
+* This article is broken down into three different headings helping the reader to see how the information is organised. It is in a logical order which: explains what loneliness is and why it is a problem, then goes on to describe how J&R BookClub can help, and the importance of connecting different generations.
+
+Article images:
+* The images are used to further illustrate the points made in the article. This helps the reader to visualise parts of the article and imagine them in their own life. This helps the user to also image these scenarios as helpful to their own situation or someone they might know.
+* 
+
+### **Safety and Security page**  
+<details>
+<summary></summary> 
+ 
+![screenshot of Safety page](/documents/safety-screenshot.png) 
+
+![screenshot of Safety page below fold](/documents/safety-below-fold.png)
+
+</details>
+
+Safety and security page:
+Image : As safety and security is not a super compelling subject for most people, the user will be reading this page out of necessity rather than for pleasure, so I have chosen a light-hearted image to make this page easier to digest.
+Cards: I have chosen cards to convey the information here too because they are a pleasant way to convey information with an image that is related to the information. The information is divided logically into: online safety, in-person safety and over-the-phone safety.
+There are “more info” buttons on each card too. These buttons auto-scroll the user to the corresponding part of the page where they have further details on the corresponding type of safety/security.
+
+### **FAQ page**  
+<details>
+<summary></summary> 
+ 
+![screenshot of FAQ page](/documents/faq-screenshot.png) 
+
+![screenshot of FAQ page below fold](/documents/faq-fold.png) 
+
+
+</details>
+
+
+FAQ page:
+Images: The image on this page clearly displays the function and as it contains text there is no need to a text overlay.
+Accordion: I chose this because it is a visually pleasing way to hold lots of information on the page without having an excessive amount of text, which would lead to cognitive overload for the user. 
+
+
+
+### **Form page**  
+<details>
+<summary></summary> 
+ 
+![screenshot of Form page](/documents/form-screenshot.png) 
+
+</details>
+
+Form page:
+
+Image: As this is a simple page that is not for conveying information, but just providing the form to sign up, I decided that a background image of books was best here. This is still in keeping with the page but not distracting from the form.
+Form: The form itself gathers some key details that J&R would need in order to ask further questions about the potential new member. As J&R have quite strict security and verification processes and the audience is not necessarily tech savvy I decided that this would be better as a guided over-the-phone process rather than having long complicated forms.
+Submit button: This links through to a page which thanks the user for signing up and then gives them the options to return to the rest of the site if they want to  continue reading information.
 
 ---   
 
@@ -453,25 +603,26 @@ The footer remains the same throughout the design. It contains important informa
  
 ### **Desktop, Tablet & Mobile Differences**  
   
-To ensure responsivity I used Flexbox in my CSS styling. Main elements in the body of the site i.e. the business ethos, menu sections, and contact sections were displayed in a row format for desktops but this switched to a column for smaller screen sizes. The header and footer remained the same, whilst images were resized to fit the display.
+I used Bootstrap grid system in order to ensure a responsive design for all screen sizes. The grid system is employed in a bespoke way for each page in order to put together the right tailored responsive response for the content of the page. For example, the cards displaying testimonials on the Member's Stories page are displayed horizontally on a large screen but then switch to a block stack view on a smaller screen.
   
 ### **Tablet View (iPad Mini/iPad Pro/Surface Pro)**  
   
-![screenshots of SCOOPS website on ipad pro](docs/documentation/tablet_view.png)
+![screenshots of J&R website on ipad pro]()
 
 
 ### **Mobile View (iPhone 5/iPhone SE/iPhone XR/iPhone 12 Pro)**  
   
-![screenshot of SCOOPS website on iPhone 12 Pro](docs/documentation/mobile_view.png)
+![screenshot of J&R website on iPhone 12 Pro]()
 
 ---  
                               
 
 ## Future Features  
 
-- For future development, I would like to include an ordering system on the website to allow customers to order menu items for takeaway and a form element for larger orders to cater for parties and events.  
-- An embedded video of the in-house ice cream production, showing customers how to make ice cream from beginning to end.
-- A gallery page of dessert specials, events held at the parlour, and candid photos of customers and staff.
+- Future features will include:
+- An in person events page.
+- a masonry wall of books and their descriptions.
+- the phone number will be clickable.
   
 ---   
   
@@ -485,17 +636,14 @@ To ensure responsivity I used Flexbox in my CSS styling. Main elements in the bo
 
 ### **Frameworks, Libraries, Technologies & Programs Used**  
 
-- Procreate - used to create wireframes and edit images 
-- GitHub - used to save and store all files for this website  
-- Git - used for version control
-- Google Fonts - fonts were imported from here 
-- Font Awesome - icons and their associated kit were downloaded from here  
-- Adobe Color - for all color palettes and accessibility contrast ratios  
-- Favicon.io - for ice cream favicon  
-- Tiny PNG - to compress images 
-- Google Dev Tools - to debug and for testing responsiveness 
-- Google Lighthouse - for auditing the website
-- W3C Validator - for validating the HTML and CSS code 
+- Canva- used to make wireframes, for site images and to develop the colour palette.
+- GitHub - used to write the code for the site and to store all files.
+- Git - used to log versions of the site.
+- Bootstrap - used to create the framework of the whole site.
+- Font Awesome - all icons were downloaded from here as there was a problem with Bootstrap icons. 
+- Adobe Color - used to test colour contrast.  
+- Google Dev Tools - used to test responsiveness and to find out what was going on with any bugs.
+- W3C Validator - used to check for errors in CSS and HTML code.
 
 ---   
  
@@ -504,17 +652,7 @@ To ensure responsivity I used Flexbox in my CSS styling. Main elements in the bo
 
 ### **How to deploy**  
 
-GitHub was used to deploy the website. These were the steps taken to acheive this:  
-
-1. Login to GitHub account
-2. Navigate to the project repository, scoops_pp1
-3. Click the Settings button near the top of the page
-4. In the left-hand menu, find and click on the Pages button
-5. In the Source section, choose 'main' from the drop-down, select branch menu
-6. Select 'root' from the drop-down folder menu
-7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
-
-![screenshot of how to deploy site on github](docs/documentation/deployment.png) 
+GitHub is used to deploy the J&R site.
 
 ---  
     
@@ -681,110 +819,7 @@ For Mobile
 
 ### **Acknowledgements** 
 - I would like to acknowledge my Code Institute mentor, Rahul Lakhanpal, for his guidance and encouragement on this project.
-- My family for testing my work and offering positive thoughts and hot cups of tea throughout the project.
-
-
-
-FEATURES:
-
-Navigation bar:
-
-The nav bar is present on all pages and has large clear icons that are easily clickable. It is fully responsive, some icons go into a dropdown menu at small screen sizes in order to keep the nav bar from taking up too much of the screen. The navigation text is accompanied by large icons in order to aid intuitive use of the website. This site is also aimed at older people as well as young people, as eye sight degeneration is more common in older people, it was important to make the site navigation as clear and obvious as possible in order to avoid cognitive fatigue. 
-
-Even on small screens the "What is J&R?" and "Members Stories" stay visible because if it your first visit to the site you might want to have more details about J&R is about. 
-
-The only page which does not have every navigation button available is the "sign-up" page because it seems counter-intuitive to have a button that sends you back to the page the user is already on. 
-
-The ability to navigate between pages without using the "back" button makes for better UX and means that you can navigate to anywhere on the website with a maximum of 3 clicks.
-
-HOMEPAGE:
-
-Home Page Hero Image:
-
-
-* On the home page there is an eye-catching image of a cosy looking library with a quote overlay. I chose the library picture as this is Heaven for people who like to read, and so should evoke a positive emotional response.
-* I chose the quote over-lay because this site is aimed at people who like to read, so they are likely to have a positive emotional response to powerful wording.
-
-How it works section:
-
-* This section explains with the use of text and icons how J&R BookClub works. It outlines in numbered steps that are easy to follow, how to sign up and what happens once you have.
-* This section should encourage the user to sign up because it shows how easy it is to do so and the benefits of doing so.
-* The picture in the centre visualises the friendship and connection that may come from joining.
-
-Back to top button:
-
-* This button makes it easy for users to navigate back to the top of the page rather than scrolling. This is a positive user experience feature because it saves people time and makes the site more convenient to navigate, especially as this site has quite a high amount of text.
-
-The Footer:
-
-* The footer is very simple and just contains a tagline about the type of person that would enjoy J&R and links to social media for the bookclub. 
-* The social media links open in a new tab of their corresponding sites. This encourages users to stay connected with the club via social media, but is purposefully very simple. The target audience for this site is people of different generations who would like to connect. So this means that a large proportion of the audience will be the over 65 age group. This group use the internet and social media less than any other age group so it's important to not have a huge emphasis on social media. 
-* The over 65 age group are more likely to be on Facebook and Pinterest than other sites and this is why these social links have been included.
-* The footer is fully responsive and is present on every page in order to show consistency which is reassuring to the user.
-
-WHAT IS J&R PAGE
-
-Hero image: every page contains a hero image with a quote overlay for the reasons already specified. The picture changes for each page in order to better reflect the topics of the page. 
-
-For the "What is J&R" page, I chose a picture of two people of different generations talking and smiling together. This was to show the pleasant relationships and friendships that J&R hopes to help people create. By visually showing this to the site user they will be able to see the benefits of joining more easily. 
-
-Cards:
-
-* This page then goes on to talk about where the idea of J&R came from, the aim and the outcome. These are put in three seperate cards with images to illustrate what the text is describing. This helps the user to further understand the behind-the-scenes working of the J&R idea and what it aims to achieve.
-* This will be valuable to the user as they will be able to gain a more in depth understand of the bookclub. It will also garner a positive emotional response from the user as the images are eyecatching and pleasant and the information is set out in an easy to read way.
-
-Back to top button:
-
-* This button makes it easy for users to navigate back to the top of the page rather than scrolling. This is a positive user experience feature because it saves people time and makes the site more convenient to navigate, especially as this site has quite a high amount of text.
-
-
-MEMBERS STORIES PAGE:
-
-Hero image with quote:
-
-* This time the hero image is of a bridge, because the quote that overlays the picture talks about building bridges between different generations.
-* The bridge image is pleasing to look at, calm and has a variety of green colours which work well with the sites colour palette.
-
-Testimonial cards:
-
-* This page contains detailed testimonials from current customers, these are useful to the user because they show the benefits of joining and convey the idea of a peer to peer recommendation from other people in the target audience.
-* These are set out in cards with an associated image so that the user can easily see the person who has left the testimonial and can see that they are happy to be a part of the bookclub.
-* This page is fully responsive too so the cards stack up on smaller screens. This continues to make it easy for the user to understand who the positive quotes are associated with and what people are saying about the bookclub.
-
-Back to top button:
-* This button makes it easy for users to navigate back to the top of the page rather than scrolling. This is a positive user experience feature because it saves people time and makes the site more convenient to navigate, especially as this site has quite a high amount of text.
-
-COMBATTING LONELINESS PAGE:
-
-Hero image with quote:
-
-* This picture of a young and old person with their eyes close together and smiling comveys the idea that positive inter-generational relationships can have a positive emotional response.
-* The quote talks about how loneliness can effect anyone, young or old and this fits with the image which brings young and old together.
-
-Article:
-* This article is broken down into three different headings helping the reader to see how the information is organised. It is in a logical order which: explains what loneliness is and why it is a problem, then goes on to describe how J&R BookClub can help, and the importance of connecting different generations.
-
-Article images:
-* The images are used to further illustrate the points made in the article. This helps the reader to visualise parts of the article and imagine them in their own life. This helps the user to also image these scenarios as helpful to their own situation or someone they might know.
-* 
-
-Safety and security page:
-Image : As safety and security is not a super compelling subject for most people, the user will be reading this page out of necessity rather than for pleasure, so I have chosen a light-hearted image to make this page easier to digest.
-Cards: I have chosen cards to convey the information here too because they are a pleasant way to convey information with an image that is related to the information. The information is divided logically into: online safety, in-person safety and over-the-phone safety.
-There are “more info” buttons on each card too. These buttons auto-scroll the user to the corresponding part of the page where they have further details on the corresponding type of safety/security.
-
-Form page:
-Navbar: This page has a simplified nav bar without the “sign-up”, “login” or “search library” buttons. This is because if you are on the sign-up page there is no functional point in having a sign-up button that would link to the page you are currently on. Also, if you are signing up you won’t be searching the library and you can’t login. So I removed these buttons in order to keep the function of the page clear and avoid distractions for the user.
-Image: As this is a simple page that is not for conveying information, but just providing the form to sign up, I decided that a background image of books was best here. This is still in keeping with the page but not distracting from the form.
-Form: The form itself gathers some key details that J&R would need in order to ask further questions about the potential new member. As J&R have quite strict security and verification processes and the audience is not necessarily tech savvy I decided that this would be better as a guided over-the-phone process rather than having long complicated forms.
-Submit button: This links through to a page which thanks the user for signing up and then gives them the options to return to the rest of the site if they want to  continue reading information.
-
-FAQ page:
-Images: The image on this page clearly displays the function and as it contains text there is no need to a text overlay.
-Accordion: I chose this because it is a visually pleasing way to hold lots of information on the page without having an excessive amount of text, which would lead to cognitive overload for the user. 
-
-Bugs:
-The active class on the navbar does not work this is because it is a header and not a classic navbar from Bootstrap framework. I worked around this class issue by giving each icon an id. Although not ideal, the site does function well.
+- My family for testing my work and offering positive thoughts and hot cups of tea throughout the pro
 
 
 
