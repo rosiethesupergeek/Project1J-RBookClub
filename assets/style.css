@@ -45,7 +45,7 @@ body{
 .bgimage1 {
     width:100%;
     height:500px;
-    background: url(../images/library-book-image.png);
+    background: url(./images/library-book-image.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
