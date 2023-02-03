@@ -306,6 +306,8 @@ The J&R site was developed to be consistent, trustworthy and easy to navigate.
 
 ![safety&security wireframe-mobile](/documents/Safety-and-security-mobile.png)
 
+</details>
+
 <details>
 <summary>Wireframe - FAQs page Desktop</summary>  
 
@@ -315,6 +317,7 @@ The J&R site was developed to be consistent, trustworthy and easy to navigate.
 <summary>Wireframe - FAQs page Mobile</summary>  
 
 ![FAQ wireframe-mobile](/documents/FAQ-page-mobile.png)
+</details>
 
 <details>
 <summary>Wireframe - Form page Desktop</summary>  
@@ -327,6 +330,7 @@ The J&R site was developed to be consistent, trustworthy and easy to navigate.
 ![Form wireframe-mobile](/documents/form-page-mobile.png)
 
 </details>
+
 
 ### **5. Surface**  
 
@@ -416,7 +420,7 @@ The ability to navigate between pages without using the "back" button makes for 
 
 ### **Hero Image**  
 <details open>  
-<summary></summary>
+<summary>Below are hero images used for each page</summary>
 
 ![screenshot of hero image homepage](/documents/hero-home.png)
 
@@ -529,7 +533,7 @@ This button makes it easy for users to navigate back to the top of the page rath
 <details>
 <summary></summary> 
  
-![screenshot of Loneliness page](/documents/loneliness-screenshot.png) 
+![screenshot of Loneliness page](/documents/Loneliness-screenshot.png) 
 
 ![screenshot of Loneliness page below fold](/documents/loneliness-below-fold.png)
 
@@ -667,6 +671,7 @@ I used Bootstrap grid system in order to ensure a responsive design for all scre
 ### **How to deploy**  
 
 GitHub is used to deploy the J&R site.
+Follow the following:
 
 
 
