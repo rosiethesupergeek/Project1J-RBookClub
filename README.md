@@ -20,22 +20,24 @@ Jean& Rose is for open minded individuals who want to connect.
   * [Wireframes](#wireframes)
 * [Design](#design)
   * [Colour Scheme](#color-scheme)
-  * [Typography](#typography)
   * [Imagery](#imagery)
 * [Page Features](#page-features)
   * [Navbar](#navbar)
   * [Hero-Image](#hero-image)
-  * [Tagline & Call to Action](#tagline--call-to-action)
-  * [Business Ethos](#business-ethos)
-  * [Menu Page](#menu-page)
-  * [Contact Page](#contact-page)
-  * [Footer](#footer)  
-* [Tablet & Mobile View](#tablet--mobile-view)
+  * [Home Page](#home-page)
+  * [What is J&R Page](#What-is-J&R-page)
+  * [Members Stories page](#Members-Stories-page)
+  * [Combatting Loneliness page](#Combatting-Loneliness-page)
+  * [Safety & Security page](#Safety-&-Security-page)
+  * [FAQs page](#FAQs-page)
+  * [Form page](#Form-page)
+  * [Thank you page](#Thank-you-page) 
+  * [Tablet & Mobile View](#tablet--mobile-view)
   * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
-  * [Tablet View](#tablet-view-ipad-miniipad-prosurface-pro)
-  * [Mobile View](#mobile-view-iphone-5iphone-seiphone-xriphone-12-pro)
-* [Future Features](#future-features)
-* [Technologies Used](#technologies-used)
+  * [Tablet View](#Tablet-View-(iPad-Mini/iPad-Pro/Surface-Pro)-)
+  * [Mobile View](#Mobile-View-(iPhone-SE/iPhone-XR/iPhone-12-Pro/pixel-5/samsung-galaxy-s8/samsung-galaxy-s20-ultra)-)
+  * [Future Features](#future-features)
+  * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries, Technologies & Programs Used](#frameworks-libraries-technologies--programs-used)
 * [Deployment](#deployment)
@@ -54,6 +56,16 @@ Jean& Rose is for open minded individuals who want to connect.
 ## User Experience (UX)  
   
 ### **User Stories**  
+
+I took the following personas in order to help inspire the design process and content creation. These personas helped me to develop empathy for the site users and understand their needs.
+
+![persona one](documents/persona-allison-young.png)
+
+![person two](documents/persona-olivia-young.png)
+
+![persona three](documents/persona-rory-young.png)
+
+![persona four](documents/persona-tommy.png)
 
 ### **Primary Goal**  
   
@@ -381,10 +393,6 @@ For buttons:
 I used Adobe color checker to check the contrast ratios of my colours:
   
 [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) 
-  
-### **Typography**  
-  
-I used Bootstrap native fonts. So whatever it is that bootstrap has called in, that's what I have on my site and I don't know how to check what that is. 
         
 ### **Imagery**  
   
@@ -504,7 +512,7 @@ This button makes it easy for users to navigate back to the top of the page rath
 <br>
 
 
-### **Member's Stories page**  
+### **Members Stories page**  
 <details>
 <summary></summary> 
  
@@ -549,7 +557,7 @@ Article:
 
 Article images:
 * The images are used to further illustrate the points made in the article. This helps the reader to visualise parts of the article and imagine them in their own life. This helps the user to also image these scenarios as helpful to their own situation or someone they might know.
-* 
+
 
 ### **Safety and Security page**  
 <details>
@@ -639,8 +647,8 @@ I used Bootstrap grid system in order to ensure a responsive design for all scre
 
 - Future features will include:
 - An in person events page.
-- a masonry wall of books and their descriptions.
-- the phone number will be clickable.
+- A masonry wall of books and their descriptions.
+- The phone number will be clickable.
   
 ---   
   
@@ -672,7 +680,11 @@ I used Bootstrap grid system in order to ensure a responsive design for all scre
 
 GitHub is used to deploy the J&R site.
 Follow the following:
-
+1. Head to the repo for J&R
+2. Find the "settings" tab
+3. Find the "pages" button on the left hand menu.
+4. The site is currently live and can be viewed by clicking "Visit site".
+5. Enjoy!
 
 
 ---  
@@ -851,47 +863,38 @@ Further device testing took place in Dev Tools on:
   
 | Bug | Section | Fix |
 | :----| :----| :--------:|
-| Whitespace added to right-hand side of webpages | All pages | Using Dev Tools, I added a thin red border to every element in my website. From this, I discovered that I had mistyped a value in my footer padding section and made it too large. This was pushing the footer element outside of the webpage width. I adjusted the padding to the correct value and the issue was resolved. |
-| Nesting button element & anchor element | Index/Home page | When running an early W3C validation test, I discovered that I had made an error by placing a button element inside an anchor element within my tagline section. Semantically, this was incorrect. I considered using a span element instead and upon consulting Stackoverflow and this [post](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5) I confirmed my understanding. I re-checked my HTML code with W3C Validator and my live site to find the issue resolved. |
-| Flexbox issues with positioning business ethos section - elements bunched together | Index/Home page | As I was learning flexbox whilst completing the project, I had not yet fully understood the div parent/child relationship. I consulted the Mozilla Developer Docs for Flexbox and discovered that I was not using enough divs for the elements to display correctly. I placed each of my headings, paragraphs, and images within divs and applied flexbox properties to their parent divs and themselves. Assigning flex-direction: row and justify-content: space-around/space-between solved my issue, with each of the elements positioning themselves with appropriate spacing between. I then applied this structure to the remaining two ethos items. |
-| br element in li element  | Menu Page |  Semantically I made an error by using the br element to make space between my menu items. On performing the W3C validation test, I became aware of this error. I considered using margin-top to fix the issue. I Googled the issue to understand my error further and came across a Stackoverflow [post](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements), with a comment from Quentin detailing how to use margin-top avoiding the first child element of the parent div. I used this piece of code in my CSS file to control the spacing between the menu items after understanding the code fully. |
-| Viewport meta tag  | Head section/All pages | On first deploying my website to real devices, the mobile pages were appearing zoomed in upon loading. They appeared normally on Dev Tools mobile testing sizes. I checked my CSS code and my viewport meta tag for any obvious errors. Upon finding none I consulted Stackoverflow to find this [post](https://stackoverflow.com/questions/14272420/webpage-starts-zoomed-in-on-mobile-devices). I removed the initial-scale=1.0 from the viewport meta tag, leaving only width=device-width, I ran the code through the W3C Validator to find no errors. This fixed the issue on all real-world mobile and tablet devices |
-| Index page styling disappeared | Index/Home page | Due to commenting out the wrong section of CSS code, I had caused styling on my home page to disappear. Checking the code, I spotted the error and rectified it. |
-| Textarea misalignment | Contact page | Due to a developer mistype, I had altered my CSS code for my contact form textarea. I re-added display:block and margin:auto to center the element again. |
+| All styling disappeared when I initially deployed my page to github pages. | All pages | I corrected this by reading this [post](https://github.com/orgs/community/discussions/22495) which explains that this is a common problem when deploying pages to gitpod, and that the file paths need to be modified in order to load the style sheets properly. I subsequently modified the file paths in order to rectify this. |
+| Button within an anchor tag | All pages with "back to top" button | When I ran the W3 validator for these pages it flagged up that there was an error in the code because buttons cannot be within anchor tags. After speaking to classmates and reading this [post](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link#:~:text=You%20can%20use%20the%20OnClick,to%20define%20the%20link%20address) I learnt that the href can go in to the button as an "onclick" event. I altered my code and the W3 schools report became clear of errors  |
+| Accordion issues | FAQ page | When I ran the FAQs page through W3 schools validator it came up with a number of errors in the accordian. These were duplicate ID errors. This was because I had wanted a bigger accordion to accomodate more questions so I had copied and pasted code from other accordion sections in order to make more accordion spaces. However, I had not given them a new unique ID. I corrected this by giving each accordion question a new unique ID after speaking with my teacher in order to fully understand the problem. |
+
+There were many many other bugs that I corrected throughout this project, I wish I could remember them all! These included making mistakes when using bootstrap grid system in order to nest columns inside columns, positioning problems relating to text and images. I have learnt a lot and been helped a lot through W3 schools and posts on Stack Overflow.
 
 ### **Unsolved Bugs** 
 
 - I am yet to learn how to make a phone number clickable and I haven't managed to position the phone number exactly where I want it to be on the page yet. These are things I will explore further and work out how to do in the future.
 
-- Sometimes when I use the repsonsive feature in Chrome dev tools, on a very small screen the J&R home page will have white space to the right of it, for the whole way down the site. When I go to explore this by hovering over the affected areas to highlight the code that is causing this, it will suddenly correct itself.
+- Sometimes when I use the responsive feature in Chrome dev tools, on a very small screen the J&R home page will have white space to the right of it, for the whole way down the site. When I go to explore this by hovering over the affected areas to highlight the code that is causing this, it will suddenly correct itself.
 
 ---  
 
 ## Credits  
   
 ### **Content References**
-- All content written for the website is by myself, is purely fictional, and for educational purposes only.
-- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and 'content zoom' module in the Love Running project.
-- [W3Schools](https://www.w3schools.com/) for additional learning material.
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) for flexbox tutorials and guidance.
-- [dev.to](https://dev.to/snkds/how-to-create-striped-backgrounds-with-css-5dfn) for the CSS diagonal stripes tutorial.
-- Alan from Code Institute Tutor Support for helping me with an element width issue in my media queries.
-- [StackOverflow](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements) guidance on removing br element from menu li items to improve semantic HTML
-- [Browserstack](https://www.browserstack.com/guide/what-are-css-and-media-query-breakpoints#:~:text=Essentially%2C%20media%20query%20breakpoints%20are,offers%20an%20optimal%20user%20experience.) for media queries and breakpoints guidance.
-- [Elaine Broche](https://github.com/elainebroche-dev/ms1-thrive) Design inspired by Elaine's striking juice website.
-- [Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README structure and Markdown guidance. 
+- All content written for the website is by myself and is purely for educational purposes.
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material.
+- [W3Schools](https://www.w3schools.com/) for lots of extra information and educational material.
+- [Net Ninja youtube course](https://www.youtube.com/watch?v=O_9u1P5YjVc)for understanding Bootstrap, especially the grid system.
+- [StackOverflow](https://stackoverflow.com/) for helping with understanding and ways to fix bugs.
   
 
 ### **Media References**  
   
-- [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), and [Pixabay](https://pixabay.com/) for all images used on this site. Credit to photographers Jonathan Cooper, Lukas, Katie Rainbow, Kyle Hinkson, and Dulce Silvagni.
-- [Font Awesome](https://fontawesome.com/) for the icons used in the footer of this site.
-- [Favicon](https://favicon.io/) for the favicon used for this site.
-- [Google Maps](https://www.google.com/maps) for the map used in this site.
+- [Canva](https://www.canva.com/) for all images and wireframe creation.
+- [Font Awesome](https://fontawesome.com/) for the icons used in the navigation bar, footer and on the main portion of the home page of this site.
 
 
 ### **Acknowledgements** 
-- Richey Malhotra for his excellent teaching skills and endless patience.
+- Richey Malhotra for his excellent teaching skills and non endless patience.
 
 
 
