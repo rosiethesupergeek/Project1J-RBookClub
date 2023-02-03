@@ -737,13 +737,13 @@ Further device testing took place in Dev Tools on:
 <details>
 <summary>Safety & Security page HTML validation</summary>  
 
-![screenshot of contact page w3c html validation for J&R]()
+![screenshot of safety page w3c html validation for J&R](/documents/safety-validate.png)
 </details>  
 
 <details>
 <summary>FAQs page HTML validation</summary>  
 
-![screenshot of contact page w3c html validation for J&R](/documents/faq-validation.png)
+![screenshot of FAQs------------------ page w3c html validation for J&R](/documents/faq-validation.png)
 </details>  
   
 <br>  
@@ -759,44 +759,89 @@ Further device testing took place in Dev Tools on:
 <br>  
 
 ### **Lighthouse scores via Chrome Developer Tools**   
-  
-For Desktop   
+     
 <details open>
-<summary>Lighthouse audit for Index page</summary>  
+<summary>Lighthouse audit for Index page on desktop</summary>  
 
-![screenshot of lighthouse audit for index page for SCOOPS](docs/documentation/lighthouse_index.png)
+![screenshot of lighthouse audit for index page for J&R on desktop](documents/lighthouse-home.png)
+
+<summary>Lighthouse audit for Index page on mobile</summary>  
+
+![screenshot of lighthouse audit for index page for J&R on mobile](documents/lighthouse-home-mobile.png)
 </details> 
 <details >
-<summary>Lighthouse audit for Menu page</summary>  
 
-![screenshot of lighthouse audit for menu page for SCOOPS](docs/documentation/lighthouse_menu.png)
+<summary>Lighthouse audit for J&R page on desktop</summary>  
+
+![screenshot of lighthouse audit for what is j and r page desktop](documents/jandr-lighthouse-desktop.png)
 </details>
 <details >
-<summary>Lighthouse audit for Contact page</summary>  
+<summary>Lighthouse audit for J&R page on mobile</summary>  
 
-![screenshot of lighthouse audit for contact page for SCOOPS](docs/documentation/lighthouse_contact.png)
+![screenshot of lighthouse audit for j and r page on mobile](documents/lighthouse-jandr-mobile.png)
 </details>      
 
+<summary>Lighthouse audit for Members stories page on desktop</summary>  
+
+![screenshot of lighthouse audit for members stories page on desktop](documents/lighthouse-members-desktop.png)
+</details>
+<details >
+<summary>Lighthouse audit for members stories page on mobile</summary>  
+
+![screenshot of lighthouse audit for members stories page on mobile](documents/lighthouse-members-mobile.png)
+</details>      
+
+<summary>Lighthouse audit for Combatting Loneliness page on desktop</summary>  
+
+![screenshot of lighthouse audit for loneliness page on desktop](documents/lighthouse-loneliness-desk.png)
+</details>
+<details >
+<summary>Lighthouse audit for Combatting Loneliness page on mobile</summary>  
+
+![screenshot of lighthouse audit for loneliness page on mobile](documents/lighthouse-loneliness-mob.png)
+</details>      
+
+<summary>Lighthouse audit for Safety & Security page on desktop</summary>  
+
+![screenshot of lighthouse audit for Safety & Security page on desktop](documents/lighthouse-safety-desk.png)
+</details>
+<details >
+<summary>Lighthouse audit for Safety & Security page on mobile</summary>  
+
+![screenshot of lighthouse audit for Safety & Security page on mobile](documents/lighthouse-safety-mob.png)
+</details>      
+
+<summary>Lighthouse audit for FAQ page on desktop</summary>  
+
+![screenshot of lighthouse audit for FAQ page on desktop](documents/lighthouse-faq-desk.png)
+</details>
+<details >
+<summary>Lighthouse audit for FAQ page on mobile</summary>  
+
+![screenshot of lighthouse audit for FAQ page on mobile](documents/lighthouse-faq-mob.png)
+</details>      
+
+<summary>Lighthouse audit for form page on desktop</summary>  
+
+![screenshot of lighthouse audit for form page on desktop](documents/lighthouse-form-desk.png)
+</details>
+<details >
+<summary>Lighthouse audit for form page on mobile</summary>  
+
+![screenshot of lighthouse audit for form page on mobile](documents/lighthouse-form-mob.png)
+</details>      
+
+<summary>Lighthouse audit for thank you page on desktop</summary>  
+
+![screenshot of lighthouse audit for thank you page on desktop](documents/lighthouse-ty-desk.png)
+</details>
+<details >
+<summary>Lighthouse audit for thank you page on mobile</summary>  
+
+![screenshot of lighthouse audit for thank you page on mobile](documents/lighthouse-ty-mob.png)
+</details>      
 <br>
-  
-For Mobile   
-<details open>
-<summary>Lighthouse audit for Index page - Mobile</summary>  
 
-![screenshot of lighthouse audit for index page for SCOOPS](docs/documentation/mobileindex_lighthouse.png)
-</details> 
-<details >
-<summary>Lighthouse audit for Menu page - Mobile</summary>  
-
-![screenshot of lighthouse audit for menu page for SCOOPS](docs/documentation/mobilemenu_lighthouse.png)
-</details>
-<details >
-<summary>Lighthouse audit for Contact page - Mobile</summary>  
-
-![screenshot of lighthouse audit for contact page for SCOOPS](docs/documentation/mobilecontact_lighthouse.png)
-</details>      
-  
-  
 ### **Bugs & Fixes**  
   
 | Bug | Section | Fix |
